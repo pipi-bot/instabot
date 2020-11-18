@@ -19,7 +19,7 @@ parser.add_argument("hashtags", type=str, nargs="+", help="hashtags")
 args = parser.parse_args()
 
 bot = Bot()
-bot.login(username=args.u, password=args.p, proxy=args.proxy)
+bot.login(username=finahokulani, password=Star2016, proxy=args.proxy)
 tags=["サロンモデル募集”,"ハワイ","フラダンス","ハワイアン","タヒチアン","いいね返し","ハイフ","プライベートサロン","エステサロン","ljk","jc","サーフィン","美容学生","高校生","作品撮り","ljc","jk3","フラガール","専門学生","blink"]
 wait=25*60# in seconds=> 25 minutes
 retry=5*60*60# in hours=> 5hours
